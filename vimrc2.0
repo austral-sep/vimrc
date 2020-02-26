@@ -225,7 +225,7 @@ func! CompileRunGcc()
 
     if &filetype == 'c'
 
-        exec "!g++ % -o %<"
+        exec "!gcc % -o %<"
 
         exec "! ./%<"
 
